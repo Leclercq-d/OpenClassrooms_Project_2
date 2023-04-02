@@ -1,0 +1,339 @@
+
+/*TABLETS*/
+@media screen and (max-width:992px){
+  
+  .main{
+    margin-bottom: 30px;
+    width:100%;
+    padding:0;
+  }
+
+  header{
+    padding:20px;
+  }
+
+  .header__nav {
+    padding-right:20px;
+  }
+  /* RECHERCHE*/
+
+  .recherche{
+    padding-left:20px;
+  }
+
+  .recherche-head h1{
+    padding: 0 1%;
+    width:70%
+  }
+  .filtres{
+    gap:1rem;
+  }
+  .filtres-serie {
+    display: flex;
+    width:100%; 
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:12px;
+    padding-left:11px;
+  }
+
+  /* HEBERGEMENTS*/
+
+  .hebergements{
+    flex-direction:row;
+    flex-wrap: wrap;
+  }
+  .populaires{
+    width:100%;
+    border-radius: 0;
+  }
+
+  .populaires-cards {
+    width:100%;
+  }
+  .populaires-cards a {
+    width: 100%;
+  }
+
+  .populaires-card {
+    width:100%;
+  }
+  .populaires-card img{
+    width:50%;
+  }
+   
+  .herbergements-marseille{
+    width: 100%;
+    border-radius: 0;
+  }
+
+  .cards{
+    justify-content: space-between;
+  }
+
+  .cards a{
+    width:97%;
+  }
+  /* ACTIVITES*/
+
+  .activites-marseille{
+    width:94%
+  }
+
+  .activites-marseille h3{
+    padding-left: 30px;
+  }
+
+  .activites {
+    flex-direction:row;
+    padding:0 3.5% ;
+    height:unset;
+    
+  }
+
+  .activites a{
+    width:47%
+
+  }
+
+  .activites article{
+    display: flex;
+    height:180px;
+  }
+
+  .activites img {
+    width:100%;
+    height: 134px;
+  }
+
+  /*FOOTER*/
+.footer__zone-list{
+  padding-left:30px;
+}
+} 
+
+/* MOBILE PHONES*/
+
+
+@media screen and (max-width:768px){
+  .main{
+    overflow-x: hidden;
+  }
+
+  /*HEADER*/
+  header{
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 13.5px;
+  padding: 0;
+  display: flex;
+  }
+
+  .header__logo {
+    width: 180px;
+    height: 90px;
+    margin-left: 60px;
+    margin-bottom: 44px;
+  }
+
+  .header__nav {
+    width:100%;
+    padding-right:0;
+    gap:0px;
+    font-size:smaller;
+  }
+
+ .header__nav a {
+   width:50%;
+   padding: 0 0 13px 120px;
+   font-size:20px; 
+   border-bottom: solid 2px #d2d2d2;
+  }
+
+  .header__nav a:hover{
+    border-top: none;
+    border-bottom: solid 2px #0065FC;
+  }
+
+  /*RECHERCHE*/
+
+  .recherche {
+    padding-left: 10px;
+  }
+
+  .recherche-form input{
+    width: 60%;
+  }
+
+  .recherche-end{
+    padding-left: 6px;
+    width: 90%;
+    font-size: smaller;
+  }
+
+ .button-search-text{
+    display: none;
+  }
+
+  .button__search__icon{
+    display:unset;
+  }
+
+  .filtres{
+    flex-direction: column;
+  }
+
+  .filtres-serie section{
+    justify-content:space-between;
+  }
+
+  .filtre-p{
+    padding-right:20px;
+    font-size:1rem;
+  }
+
+  .economique{
+    width:180px;
+  }
+
+  .familial {
+    width:144px;
+  }
+
+  .animaux{
+    width:219px;
+  }
+
+  /*HEBERGEMENTS*/
+
+  .hebergements{
+    justify-content: center;
+  }
+
+  .cards a {
+    width: 96%;
+  } 
+
+  .herbergements-marseille{
+    background-color: white;
+    padding-top:0;
+  }
+
+  /* ACTIVITES*/
+
+  .activites a {
+    width:100%;
+  }
+
+  #a__longchamp{
+    margin-bottom:10px;
+  }
+
+
+
+  /*FOOTER*/
+
+  .footer__zone-list{
+    flex-direction:column;
+    align-items: flex-start;
+  }
+
+  .footer label{
+    display:flex;
+    justify-content:center;
+  }
+
+  
+  .footer__list ul{
+    margin-top:0;
+  }
+  
+  .footer{
+    padding:0;
+  }
+/*}
+
+@media screen and (max-width:500px){
+  */
+  /*HEADER*/
+
+  header{
+    width:100%;
+  }
+
+  .header__nav a{
+    padding: 0 0 13px 0;
+    font-size:16px;
+    text-align:center;
+  }
+  
+  /*RECHERCHES*/
+
+  .recherche{
+    width:95%;
+  }
+  .recherche-head h1{
+    font-size:16px;
+    width: 80%;
+  }
+
+  .recherche-form input{
+    width:65%
+  }
+
+  .filtres-serie {
+    padding-left:2px;
+  }
+
+  /*HEBERGEMENTS*/
+
+  .populaires{
+    padding:20px;
+  }
+
+  .populaires-card img{
+    width:41%;
+  }
+
+  .populaires-card-text{
+    padding-right:10px;
+  }
+
+
+  .herbergements-marseille{
+    padding: 0 20px 10px 20px;
+  }  
+  .card__h4{
+    font-size:16px;
+  }
+
+  .card__p{
+    font-size:14px;
+  }
+
+  #afficherplus{
+    font-size:16px;
+  }
+
+  /*ACTIVITES*/
+
+  .activites-marseille{
+    width: 100%;
+  }
+
+  .activites-marseille h3{
+    font-size:20px;
+  }
+
+  .activites{
+    width: 100%;
+    padding:0 20px;
+    box-sizing: border-box;
+  }
+
+  .activites a{
+    width:100%;
+  }
+
+}
